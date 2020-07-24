@@ -1,12 +1,12 @@
 #!/bin/bash
 
-#扫描
+#scanning
 
 cd /home/ubuntu/snap2html/
 
 python3 /home/ubuntu/snap2html/diogeneslist.py /home/ubuntu/GoogleDrive index
 
-#扫描完推送
+#Push after scanning
 
 cp /home/ubuntu/snap2html/index.html /home/ubuntu/snapGit/
 
